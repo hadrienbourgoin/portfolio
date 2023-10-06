@@ -24,3 +24,8 @@
     text-decoration: none;
   }
 }
+.card:hover {
+  h2 {
+    text-decoration: underline;
+  }
+}

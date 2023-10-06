@@ -3,11 +3,22 @@
 }
 
 .super-center {
+  display: flex;
   text-align: center;
+  align-items: center;
+  justify-content: center;
 
   * {
     text-decoration: none;
     color: black;
+  }
+
+  span {
+    margin-left: 12px;
+  }
+
+  .linkedin:hover{
+    text-decoration: underline;
   }
 }
 
