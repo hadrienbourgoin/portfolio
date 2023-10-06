@@ -1,24 +1,8 @@
-# README
+# portfolio
+HADRIEN BOURGOIN Portfolio</br>
+My Portfolio where I present my personnal projects.</br>
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Stack:</br>
+Language: Ruby</br>
+Code editor: VScode</br>
+Framework: Ruby on Rails</br>
