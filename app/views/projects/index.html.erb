@@ -1,0 +1,10 @@
+<% unless @projects.empty? %>
+  <div class="cards">
+    <% @projects.each do |project| %>
+      <%= link_to project_path(project), class: "card" do %>
+        <h2><%= project.name %></h2>
+        <%= project.description %>
+      <% end %>
+    <% end %>
+  </div>
+<% end %>
