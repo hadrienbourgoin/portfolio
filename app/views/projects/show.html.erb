@@ -1,4 +1,8 @@
 <% unless @project.nil? %>
-  <h2><%= @project.name %></h2>
-  <%= @project.description %>
+  <div class="vw70">
+    <% if @project.name == "NoteMe" %>
+      <h2><%= @project.name %></h2>
+      <h3><%= @project.description %></h3>
+    <% end %>
+  </div>
 <% end %>

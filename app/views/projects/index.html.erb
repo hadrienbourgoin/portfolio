@@ -1,9 +1,12 @@
 <% unless @projects.empty? %>
-  <div class="cards">
+  <div class="cards vw70">
     <% @projects.each do |project| %>
-      <%= link_to project_path(project), class: "card" do %>
-        <h2><%= project.name %></h2>
-        <%= project.description %>
+      <% if project.name == 'NoteMe' %>
+        <%= link_to project_path(project), class: "card" do %>
+          <h2><%= project.name %></h2>
+          <img src="https://img.freepik.com/free-vector/teacher-classroom-pointing-chalkboard_40876-2422.jpg" alt="teacher" class="card-image centered">
+          <p>Enhance your teaching experience!</p>
+        <% end %>
       <% end %>
     <% end %>
   </div>

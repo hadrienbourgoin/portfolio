@@ -6,4 +6,7 @@ Rails.application.routes.draw do
 
   root to: 'projects#index'
   resources :projects, only: %i[index show]
+  get '/terms', to: 'customs#terms'
+  get '/contact', to: 'customs#contact'
+  get '/about', to: 'customs#about'
 end

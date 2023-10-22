@@ -7,7 +7,7 @@ body {
   display: flex;
   flex-direction: column;
   background: rgb(255,255,0);
-background: linear-gradient(90deg, rgba(255,255,0,1) 0%, rgba(9,120,121,1) 47%, rgba(0,142,255,1) 100%);
+  background: linear-gradient(90deg, rgba(255,255,0,1) 0%, rgba(9,120,121,1) 47%, rgba(0,142,255,1) 100%);
 }
 
 .navbar {
@@ -33,4 +33,9 @@ background: linear-gradient(90deg, rgba(255,255,0,1) 0%, rgba(9,120,121,1) 47%, 
   a:hover {
     text-decoration: underline;
   }
+}
+
+.vw70 {
+  width: 70vw;
+  margin: auto;
 }

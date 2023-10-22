@@ -3,12 +3,9 @@
     <%= image_tag "logo.png", class: "avatar" %>
     <span>© 2023 Portfolio, Inc. Author: <%= link_to 'Hadrien Bourgoin', 'https://www.linkedin.com/in/hadrien-bourgoin/', class: "linkedin" %><span><br>
   </div>
-  <div class="super-grid">
-    <p><a href="#">Terms</a></p>
-    <p><a href="#">Privacy</a></p>
-    <p><a href="#">Security</a></p>
-    <p><a href="#">Docs</a></p>
-    <p><a href="#">Contact</a></p>
-    <p><a href="#">About</a></p>
+  <div class="super-center super-grid">
+    <p><%= link_to 'Terms', terms_path %></p>
+    <p><%= link_to 'Contact', contact_path %></p>
+    <p><%= link_to 'About', 'https://www.linkedin.com/in/hadrien-bourgoin/', target: :_blank %></p>
   </div>
 </footer>
