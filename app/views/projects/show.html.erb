@@ -5,4 +5,15 @@
       <h3><%= @project.description %></h3>
     <% end %>
   </div>
+
+  <div data-controller='api'>
+    <select data-api-target='select' data-action="click->api#searchapi">
+      <option>users</option>
+      <option>groups</option>
+      <option>students</option>
+    </select>
+
+    <button data-api-target="search"> <%= link_to 'Search', note_me_api_path(query: 'users') %> </button>
+  </div>
+
 <% end %>
