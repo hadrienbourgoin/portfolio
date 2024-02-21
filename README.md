@@ -1,6 +1,6 @@
 # portfolio
 HADRIEN BOURGOIN Portfolio<br>
-My Portfolio where I present my personnal projects.<br>
+My Portfolio <br>
 
 Stack:<br>
 Language: Ruby<br>
